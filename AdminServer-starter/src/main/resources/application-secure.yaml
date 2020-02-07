@@ -1,0 +1,13 @@
+spring:
+  profiles: secure
+  security:
+    user:
+      name: "user"
+      password: "password"
+eureka:
+  instance:
+    metadata-map:
+      #These two are needed so that the server
+      #can access the protected client endpoints
+      user.name: "user"
+      user.password: "password"

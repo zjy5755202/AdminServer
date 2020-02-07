@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="AdminServer-integration" />
+        <module name="AdminServer-core" />
+        <module name="AdminServer-dal" />
+        <module name="AdminServer-domain" />
+        <module name="AdminServer-starter" />
+        <module name="AdminServer-web" />
+        <module name="AdminServer-test" />
+        <module name="AdminServer-common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AdminServer" target="1.8" />
+      <module name="AdminServer-common" target="1.8" />
+      <module name="AdminServer-core" target="1.8" />
+      <module name="AdminServer-dal" target="1.8" />
+      <module name="AdminServer-domain" target="1.8" />
+      <module name="AdminServer-integration" target="1.8" />
+      <module name="AdminServer-starter" target="1.8" />
+      <module name="AdminServer-test" target="1.8" />
+      <module name="AdminServer-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AdminServer-common" options="-parameters" />
+      <module name="AdminServer-core" options="-parameters" />
+      <module name="AdminServer-dal" options="-parameters" />
+      <module name="AdminServer-domain" options="-parameters" />
+      <module name="AdminServer-integration" options="-parameters" />
+      <module name="AdminServer-starter" options="-parameters" />
+      <module name="AdminServer-test" options="-parameters" />
+      <module name="AdminServer-web" options="-parameters" />
+    </option>
+  </component>
+</project>

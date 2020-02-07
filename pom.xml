@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.9.RELEASE</version>
+        <relativePath/>
+    </parent>
+
+    <groupId>com.zjy</groupId>
+    <artifactId>AdminServer</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0</version>
+    <modules>
+        <module>AdminServer-dal</module>
+        <module>AdminServer-domain</module>
+        <module>AdminServer-web</module>
+        <module>AdminServer-core</module>
+        <module>AdminServer-common</module>
+        <module>AdminServer-integration</module>
+        <module>AdminServer-starter</module>
+        <module>AdminServer-test</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <spring-boot-version>2.1.9.RELEASE</spring-boot-version>
+        <spring-cloud-version>2.1.3.RELEASE</spring-cloud-version>
+        <mybatis-spring-boot-version>1.3.2</mybatis-spring-boot-version>
+        <java.version>1.8</java.version>
+
+        <AdminServer-common-version>1.0.0</AdminServer-common-version>
+        <AdminServer-core-version>1.0.0</AdminServer-core-version>
+        <AdminServer-dal-version>1.0.0</AdminServer-dal-version>
+        <AdminServer-domain-version>1.0.0</AdminServer-domain-version>
+        <AdminServer-web-version>1.0.0</AdminServer-web-version>
+        <AdminServer-integration-version>1.0.0</AdminServer-integration-version>
+        <AdminServer-starter-version>1.0.0</AdminServer-starter-version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+
+            <dependency>
+                <groupId>com.zjy</groupId>
+                <artifactId>AdminServer-common</artifactId>
+                <version>${AdminServer-common-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.zjy</groupId>
+                <artifactId>AdminServer-core</artifactId>
+                <version>${AdminServer-core-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.zjy</groupId>
+                <artifactId>AdminServer-dal</artifactId>
+                <version>${AdminServer-dal-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.zjy</groupId>
+                <artifactId>AdminServer-domain</artifactId>
+                <version>${AdminServer-domain-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.zjy</groupId>
+                <artifactId>AdminServer-web</artifactId>
+                <version>${AdminServer-web-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.zjy</groupId>
+                <artifactId>AdminServer-integration</artifactId>
+                <version>${AdminServer-integration-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.zjy</groupId>
+                <artifactId>AdminServer-starter</artifactId>
+                <version>${AdminServer-starter-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-jpa</artifactId>
+                <version>${spring-boot-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <version>${spring-boot-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>${mybatis-spring-boot-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+                <version>${spring-boot-version}</version>
+                <scope>test</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+                <version>${spring-cloud-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-openfeign</artifactId>
+                <version>${spring-cloud-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cc.eamon.open</groupId>
+                <artifactId>mapping</artifactId>
+                <version>1.0.1-ALPHA</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cc.eamon.open</groupId>
+                <artifactId>status</artifactId>
+                <version>0.0.1</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>2.9.2</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>2.9.2</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+
+</project>

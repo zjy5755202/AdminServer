@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AdminServer.iml" filepath="$PROJECT_DIR$/AdminServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdminServer-common/AdminServer-common.iml" filepath="$PROJECT_DIR$/AdminServer-common/AdminServer-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdminServer-core/AdminServer-core.iml" filepath="$PROJECT_DIR$/AdminServer-core/AdminServer-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdminServer-dal/AdminServer-dal.iml" filepath="$PROJECT_DIR$/AdminServer-dal/AdminServer-dal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdminServer-domain/AdminServer-domain.iml" filepath="$PROJECT_DIR$/AdminServer-domain/AdminServer-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdminServer-integration/AdminServer-integration.iml" filepath="$PROJECT_DIR$/AdminServer-integration/AdminServer-integration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdminServer-starter/AdminServer-starter.iml" filepath="$PROJECT_DIR$/AdminServer-starter/AdminServer-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdminServer-test/AdminServer-test.iml" filepath="$PROJECT_DIR$/AdminServer-test/AdminServer-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdminServer-web/AdminServer-web.iml" filepath="$PROJECT_DIR$/AdminServer-web/AdminServer-web.iml" />
+    </modules>
+  </component>
+</project>

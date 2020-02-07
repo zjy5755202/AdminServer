@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: AdminServer
+  cloud:
+    config:
+      server:
+        git:
+          #配置Git仓库地址以及账号密码
+          uri: https://github.com/zjy5755202/spring-cloud-config.git
+          username:
+          password:
+          #配置了文件搜索的位置
+          search-paths: /AdminServer
+#  rabbitmq:
+#    host: localhost
+#    port: 5672
+#    username: lucas
+#    password: lucas
